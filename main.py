@@ -1,2 +1,10 @@
 print("=== JOGO DA VELHA ===")
-print("Bem-vindo!")
+
+tabuleiro = [
+    [" ", " ", " "],
+    [" ", " ", " "],
+    [" ", " ", " "]
+]
+
+for linha in tabuleiro:
+    print(linha)
