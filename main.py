@@ -7,4 +7,6 @@ tabuleiro = [
 ]
 
 for linha in tabuleiro:
-    print(linha)
+    print(linha[0], "|", linha[1], "|", linha[2])
+
+    print("--+---+--")
